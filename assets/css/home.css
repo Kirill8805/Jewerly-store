@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .5s;
+    color: inherit;
+    padding-bottom: 2px;
+}
+a:hover {
+    background-size: 100% 2px;
+}
+img{
+    width: 280px;
+    height: 220px;
+    object-fit: cover;
+}
+hr{
+    height: 2px;
+    border: none;
+    background-color: #33333334;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+.head-box {
+    width: 100%;
+    height: 111px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+.nav {
+    width: 40%;
+    text-align: right;
+}
+.nav p {
+    display: inline;
+}
+.nav p:last-child{
+    margin-right: 60px;
+}
+.logo {
+    width: 20%;
+    text-align: center;
+}
+.search-login-favorite {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.search {
+   display: inline-flex;
+   margin-right: 10px; 
+   margin-left: 60px;
+   align-items: center;
+}
+.login {
+    margin-right: 20px;
+}
+.profile {
+    margin-right: 20px;
+}
+.select{
+    text-align: center;
+    margin-left: 70px;
+}
+#select:hover{
+    cursor: pointer;
+}
+#select { 
+    width: 120px;  
+    appearance: none;
+    overflow: hidden;
+    background: url('../image/down.png') no-repeat right;
+    border: none;
+    margin-right: 40px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgba(85, 85, 85, 0.555);
+    margin-top: 100px;
+}
+.content{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 280px;
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+.card p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.card h2 {
+    margin-bottom: 15px;
+}
+.btn-black{
+    width: auto;
+    padding: 0 20px;
+    height: 40px;
+    border: none;
+    background-color: #333333;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.btn-black:hover{
+    background-color: #333333d8
+}
+input{
+    height: 38px;
+    border: solid 1px #333333;
+    padding: 0;
+}
+.items-text {
+	overflow: hidden;
+	position: relative;
+	width: 540px;
+    height: 130px;
+    flex-shrink: 0;
+    color: #333333c9;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.items-text:after {
+	content: "";
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+    top: 20px;
+	right: 0;
+	left: 0;
+	height: 150px;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 100%);
+	pointer-events: none;
+}
+.term {
+    border-bottom: 1px dashed  #333333;
+    cursor: pointer;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.icon{
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+}
+.icon-text{
+    margin-right: 40px;
+}
+.icon-text p{
+    width: 90px;
+    margin-bottom: 40px;
+}
+.contacts{
+    background: url(../image/Rectangle\ 9.png);
+    height: 478px;
+    color: #fff;
+    margin-top: 110px;
+}
+.text-one{
+    font-size: 21px;
+    text-align: center;
+    padding-top: 70px;
+}
+.text-two{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.left-text{
+    margin-bottom: 15px;
+}
+.left-text p{
+    align-items: center;
+    display: inline;
+    margin: 0;
+    margin-left: 20px;
+}
+.inp-email {
+    border: none;
+    position: relative;
+    font-size: 28px;
+    height: 85px;
+    width: 418px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 12px;
+    z-index: 1;
+}
+.inp-email:after{
+    content:'';
+    position: absolute;
+    height: 113px;
+    width: 448px;
+    border: 1px solid #b1b1b1;
+    z-index: -1;
+}
+.down-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
+    margin-top: 80px;
+}
+footer p{
+    margin: 15px 0;
+}
+.row{
+    width: 255px;
+}
+.row hr{
+    background-color: #333;
+    height: 0.5px;
+}
+.row-icon hr{
+    background-color: #333;
+    height: 0.5px;
+}
+.row-icon{
+    width: 255px;
+}
+.title-row{
+    font-size: 18px;
+}
+.media-icon svg{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.ins-parag{
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+}
+.bank-icon{
+    display: inline-flex;
+}
+.bank-icon img{
+    width: 45px;
+    height: 30px;
+    margin-right: 20px;
+}
+.tel-list svg{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.tel-list:first-child{
+    margin-top: -15px;
+}
+.hr-down{
+    background-color: #333;
+    height: 0.5px;
+    margin-top: 60px;
+}
+.footer-down-line{
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
+}
+.footer-down-line p{
+    width: auto;
+    margin: 0;
+    margin: 20px 0;
+    font-size: 14px;
+}
